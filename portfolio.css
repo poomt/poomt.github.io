@@ -1,0 +1,114 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr ));
+    grid-gap: 1rem;
+  }
+  .grid > div {
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+
+body {
+
+    
+    margin: 0;
+    display: grid;
+
+
+}
+
+div.parent-flex {
+    border: 5px solid #7c8e88;
+    padding: 10px;
+}
+  p.child-flex {
+    border: 5px solid #7c8e88;
+    padding: 10px;
+}
+
+div.topbar{
+    
+
+  }
+
+.topbar2 {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    vertical-align: middle;
+    background-color: white;
+    position: fixed;
+    margin: 0;
+    
+    justify-content: flex-end;
+
+    
+}
+
+p.font1{
+    font-size: 1.25rem;
+    padding: 1.875rem 0;
+    display:block;
+    margin: 0;
+
+}
+
+.namejob {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    vertical-align: middle;
+    
+}
+
+li.namejob {
+    vertical-align: middle;
+}
+
+.name {
+    font-size: 2rem;
+    padding: 1.5rem 0.5rem;
+    display: block;
+    
+}
+
+
+.navibar2 a:hover{
+    color: rgb(21, 89, 235);
+}
+
+
+.navibar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    position: flex;
+    justify-content: flex-end;
+
+}
+
+.navibar2 {
+    font-size: 1rem;
+    display: flex;
+    color: black;
+    background-color: white;
+    width: 100px;
+    padding: 2rem 0.5rem;
+    text-decoration: none;
+    display: block;
+    align-self: end;
+    position: flex;
+    justify-content: flex-end;
+}
+
+#test {
+    position: flex;
+    justify-content: flex-end;
+}
+
+
