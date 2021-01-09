@@ -114,3 +114,27 @@ a.navibar2:hover {
   position: flex;
   justify-content: flex-end;
 }
+
+.background {
+  width: 100vw;
+  height: 800px;
+}
+
+.left-background {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(230, 218, 206);
+}
+
+.content {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+.profile-picture {
+  border-radius: 100%;
+}
